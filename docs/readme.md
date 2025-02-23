@@ -7,4 +7,8 @@
 ### Hivatkozások
 -
 -
-## Források
+### Források
+
+- Pixabay
+- LogoMaker
+- Képszerkesztés: Inpaint, Pixelcut
