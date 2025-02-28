@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(220, 215, 201, 1);
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+.navbar-nav{
+    margin: auto;
+    font-size: larger;
+}
+
+.nav-item{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.33);
+}
