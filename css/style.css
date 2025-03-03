@@ -58,7 +58,6 @@ body{
 
 .footer-foot{
     vertical-align: middle;
-    width: auto;
     background-color: rgba(0, 0, 0, 0.33);
     color: white;
     font-size: 120%;
@@ -69,13 +68,13 @@ body{
     background-image: url(../img/home-bg-img-notfinal.png);
     background-position: center center;
     background-size: cover;
-    width: auto;
 }
 
 .home-left{
     float: left;
     text-align: left;
-    margin: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 .home-right{
