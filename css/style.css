@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
 body{
     background-color: rgba(220, 215, 201, 1);
     font-family: "Baloo Bhaijaan 2", sans-serif;
@@ -33,7 +34,7 @@ body{
     color: white;
 }
 
-.quote-dark{
+.quote-home{
     font-family: "Bonheur Royale", cursive;
     font-weight: 400;
     font-style: normal;
@@ -68,6 +69,22 @@ body{
     background-image: url(../img/home-bg-img-notfinal.png);
     background-position: center center;
     background-size: cover;
-    width: 1920px;
-    height: 1080px;
+    width: auto;
+}
+
+.home-left{
+    float: left;
+    text-align: left;
+}
+
+.home-right{
+    float: right;
+    text-align: right;
+}
+
+/* A SÁRGA CÍMEKRE EZT A CSS-T KELL RAKNI HOGY MEGLEYGEN A BETŰTÍPUS */
+.tittle{
+  font-family: "Braah One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
