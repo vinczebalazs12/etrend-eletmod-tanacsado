@@ -94,3 +94,42 @@ body{
 .shadow-text{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+.mini-container{
+    margin: auto;
+    width: 50%;
+}
+
+h4{
+    font-weight: 400;
+}
+
+h5{
+    font-weight: 400;
+}
+
+.card-notfooter{
+    background-color: #2C3930;
+    font-weight: 400;
+}
+
+.card-image{
+    margin: auto;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.btn-outline-primary{
+    margin: auto;
+    color: white;
+    border-color: rgba(63, 79, 68, 1);
+    width: 220px;
+}
+
+.btn-outline-primary:hover{
+    margin: auto;
+    color: white;
+    border-color: rgba(63, 79, 68, 1);
+    background-color: rgba(63, 79, 68, 1);
+    width: 220px;
+}
