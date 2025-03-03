@@ -33,6 +33,13 @@ body{
     color: white;
 }
 
+.quote-dark{
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
 .card-img-top{
     width: 75px;
     margin: auto;
@@ -55,4 +62,12 @@ body{
     color: white;
     font-size: 120%;
     text-align: center;
+}
+
+.home-bg{
+    background-image: url(../img/home-bg-img-notfinal.png);
+    background-position: center center;
+    background-size: cover;
+    width: 1920px;
+    height: 1080px;
 }
