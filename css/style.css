@@ -156,3 +156,8 @@ h5{
     margin-left: 15px;
     margin-top: -15px;
 }
+
+.float-center{
+    float: auto;
+    text-align: center;
+}
