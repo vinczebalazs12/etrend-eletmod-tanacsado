@@ -25,6 +25,7 @@ body{
     width: auto;
     background-color: rgba(63, 79, 68, 1);
     height: 420px;
+    border-radius: 15px;
 }
 
 .quote{
@@ -90,9 +91,14 @@ body{
   color: #A27B5C;
 }   
 
-/* SZÖVEGRE ÁRNYÉKOT AD */
+/* SZÖVEGRE ÁRNYÉKOT AD (NEM LEHET EGYSZERRE A KÖRVONALLAL*/
 .shadow-text{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* SZÖVEGRE KÖRVONALAT AD (NEM LEHET EGYSZERRE AZ ÁRNYÉKKAL) */
+.text-outline{
+    text-shadow: -1px -1px 0 #00000084, 1px -1px 0 #00000084, -1px 1px 0 #00000084, 1px 1px 0 #00000084;
 }
 
 .mini-container{
@@ -111,6 +117,7 @@ h5{
 .card-notfooter{
     background-color: #2C3930;
     font-weight: 400;
+    border-radius: 15px;
 }
 
 .card-image{
@@ -132,4 +139,20 @@ h5{
     border-color: rgba(63, 79, 68, 1);
     background-color: rgba(63, 79, 68, 1);
     width: 220px;
+}
+
+.mini-bck-part{
+    background-image: url(../img/universal/bck2.png);
+    background-size: auto;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+.float-right{
+    float: right;
+}
+
+#email-subtext{
+    margin-left: 15px;
+    margin-top: -15px;
 }
