@@ -65,7 +65,7 @@ body{
 }
 
 .home-bg{
-    background-image: url(../img/home-bg-img-notfinal.png);
+    background-image: url(../img/universal/bck.png);
     background-position: center center;
     background-size: cover;
 }
