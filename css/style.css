@@ -195,7 +195,7 @@ h5{
 }
 
 .booking-form {
-	max-width: 642px;
+	max-width: 800px;
 	width: 100%;
 	margin: auto;
 }
@@ -211,12 +211,16 @@ h5{
 	margin: 0px;
 }
 
+/* IDŐPONTFOGLALÁS KERETJE */
+
 .booking-form>form {
 	background-color: #F9F9F9;
 	padding: 30px 20px;
-	border-radius: 3px;
-    border: 3px 3px 3px #3F4F44;
+	border-radius: 9px;
+    border: 4px solid #3F4F44;
 }
+
+/* IDÁIG */
 
 .booking-form .form-group {
 	position: relative;
@@ -225,7 +229,7 @@ h5{
 
 .booking-form .form-control {
 	background-color: #f5f5f5;
-	border: none;
+	border: 10px 10px 10px 10px #101113;
 	height: 45px;
 	border-radius: 3px;
 	-webkit-box-shadow: none;
@@ -289,10 +293,9 @@ h5{
 	color: white;
 	background-color: #3F4F44;
 	font-weight: 700;
-	height: 50px;
-	border: none;
-	width: 200px;
+	height: 45px;
+	width: 180px;
 	display: block;
-	border-radius: 3px;
+	border-radius: 5px;
     margin: auto;
 }
