@@ -40,70 +40,82 @@
 
       <!-- Időpontfoglalás div -->
 
-	<div id="booking" class="section">
-		<div class="section-center">
-			<div class="container">
-				<div class="row">
-					<div class="booking-form">
-						<form>
-							<div class="row">
-                <div class="form-header">
-                  <h1>Időpontfoglalás</h1>
-                  <br>
-                  <h5>Kérjük töltse ki az alábbi űrlapot.</h5>
-                  <br>
-                </div>
-								<div class="col-sm-6">
-									<div class="form-group">
-										<span class="form-label">Keresztnév</span>
-										<input class="form-control" type="text" placeholder="Írd be a keresztneved">
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="form-group">
-										<span class="form-label">Vezetéknév</span>
-										<input class="form-control" type="email" placeholder="Írd be a vezetékneved">
-									</div>
-								</div>
-							</div>
-							
-              <div class="row">
-								<div class="col-sm-6">
-									<div class="form-group">
-										<span class="form-label">Email</span>
-										<input class="form-control" type="text" placeholder="Írd be az email címedet">
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="form-group">
-										<span class="form-label">Telefonszám</span>
-										<input class="form-control" type="email" placeholder="Írd be a telefonszámodat">
-									</div>
-								</div>
-							</div>
-              <div class="row">
-								<div class="col-sm-5">
-									<div class="form-group">
-										<span class="form-label">Típus</span>
-										<input class="form-control" type="text" placeholder="Írd be az email címedet">
-									</div>
-								</div>
-                <div class="col-sm-7">
-                  <div class="form-group">
-                    <span class="form-label">Pickup Date</span>
-                    <input class="form-control" type="date" required>
-                  </div>
-                </div>
-              <div class="form-btn">
-                <button class="submit-btn">Foglalás</button>
-              </div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="booking" class="section">
+     <div class="section-center">
+         <div class="container">
+             <div class="row">
+                 <div class="booking-form">
+                     <form>
+                         <div class="row">
+                             <div class="form-header">
+                                 <h1>Időpontfoglalás</h1>
+                                 <br>
+                                 <h5>Kérjük töltse ki az alábbi űrlapot.</h5>
+                                 <br>
+                             </div>
+                             <div class="col-sm-6">
+                                 <div class="form-group">
+                                     <span class="form-label">Keresztnév</span>
+                                     <input class="form-control" type="text" placeholder="Írd be a keresztneved">
+                                 </div>
+                             </div>
+                             <div class="col-sm-6">
+                                 <div class="form-group">
+                                     <span class="form-label">Vezetéknév</span>
+                                     <input class="form-control" type="text" placeholder="Írd be a vezetékneved">
+                                 </div>
+                             </div>
+                         </div>
+                         
+                         <div class="row">
+                             <div class="col-sm-6">
+                                 <div class="form-group">
+                                     <span class="form-label">Email</span>
+                                     <input class="form-control" type="email" placeholder="Írd be az email címedet">
+                                 </div>
+                             </div>
+                             <div class="col-sm-6">
+                                 <div class="form-group">
+                                     <span class="form-label">Telefonszám</span>
+                                     <input class="form-control" type="text" placeholder="Írd be a telefonszámodat">
+                                 </div>
+                             </div>
+                         </div>
+ 
+                         <div class="row">
+                             <div class="col-sm-5">
+                                 <div class="form-group">
+                                      <span class="form-label">Válaszd ki a típust</span>
+                                     <div class="dropdown-wrapper">
+                                         <select id="menu" class="form-control">
+                                             <option value="" class="form-control" disabled selected>Válaszd ki a típust</option>
+                                             <option value="személyes elbeszélgetés">személyes elbeszélgetés</option>
+                                             <option value="edzésprogram elsajátítása">edzésprogram elsajátítása</option>
+                                             <option value="táplálkozási tanácsadás">táplálkozási tanácsadás</option>
+                                             <option value="életmódváltás">életmódváltás</option>
+                                             <option value="egyéni edzések kialakítása">egyéni edzések kialakítása</option>
+                                             <option value="általános konzultáció">általános konzultáció</option>
+                                         </select>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="col-sm-7">
+                               <div class="form-group">
+                                 <span class="form-label">Időpont</span>
+                                 <input class="form-control" type="date" required>
+                               </div>
+                             </div>
+                         </div>
+ 
+                         <div class="form-btn">
+                             <button class="submit-btn">Foglalás</button>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
 
 
 
