@@ -10,5 +10,7 @@
 ### Források
 
 - Pixabay
+- Unsplash
 - LogoMaker
 - Képszerkesztés: Inpaint, Pixelcut
+- AiEase.ai
