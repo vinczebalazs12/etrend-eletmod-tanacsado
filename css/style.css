@@ -360,3 +360,38 @@ h5{
 .lista2{
     padding-bottom: 50px;
 }
+
+/* TANÁCSADÁS OLDAL ŰRLAPRA VEZETŐ DIV, SZÖVEG ÉS LINK */
+
+.urlapszoveg{
+    text-align: center;
+    color: #A27B5C;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.urlapalszoveg{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.urlapdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.urlapgomb{
+    background: #2C3930;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.urlapgomb:hover{
+    color: white;
+    border-color: rgba(63, 79, 68, 1);
+    background-color: rgba(63, 79, 68, 1);
+}
