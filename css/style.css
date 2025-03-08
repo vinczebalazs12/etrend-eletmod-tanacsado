@@ -336,3 +336,27 @@ h5{
     font-size: 30px;
     margin-bottom: 10px;
 }
+
+/* IZOMÉPÍTÉS OLDAL */
+
+.izomepiteskep{
+    width: 320px;
+    height: auto;
+}
+
+.izomepites{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.gomb1{
+    background-color: #3F4F44;
+}
+
+.lista1{
+    padding-bottom: 110px;
+}
+
+.lista2{
+    padding-bottom: 50px;
+}
